@@ -1,0 +1,159 @@
+{
+  "wallAtari1": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 0, "y": 0 },
+    "isAtari": true,
+    "situation": {
+      "currentPlayer": "BLACK",
+      "position": {
+        "whites": [
+          { "x":1, "y":0 }
+        ],
+        "blacks": [
+          { "x":0, "y":0 }
+        ]
+      }
+    }
+  },
+
+  "wallAtari2": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 0 },
+    "isAtari": true,
+    "situation": {
+      "currentPlayer": "BLACK",
+      "position": {
+        "whites": [
+          { "x":2, "y":0 },
+          { "x":3, "y":1 }
+        ],
+        "blacks": [
+          { "x":3, "y":0 }
+        ]
+      }
+    }
+  },
+
+  "wallAtari3": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 0 },
+    "isAtari": false,
+    "situation": {
+      "currentPlayer": "BLACK",
+      "position": {
+        "whites": [
+          { "x":2, "y":0 },
+          { "x":3, "y":1 }
+        ],
+        "blacks": [
+          { "x":3, "y":0 },
+          { "x":10, "y":0 }
+        ]
+      }
+    }
+  },
+
+  "wallAtari4": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 0 },
+    "isAtari": false,
+    "situation": {
+      "currentPlayer": "BLACK",
+      "position": {
+        "whites": [
+          { "x":2, "y":0 },
+          { "x":3, "y":1 },
+          { "x":2, "y":1 }
+        ],
+        "blacks": [
+          { "x":3, "y":0 },
+          { "x":10, "y":0 }
+        ]
+      }
+    }
+  },
+
+  "wallAtari5": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 0 },
+    "isAtari": false,
+    "situation": {
+      "currentPlayer": "BLACK",
+      "position": {
+        "whites": [
+          { "x":2, "y":0 },
+          { "x":3, "y":1 },
+          { "x":2, "y":1 }
+        ],
+        "blacks": [
+          { "x":3, "y":0 },
+          { "x":8, "y":0 }
+        ]
+      }
+    }
+  },
+
+  "ladder1": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 3 },
+    "isAtari": false,
+    "situation": {
+      "currentPlayer": "BLACK",
+      "position": {
+        "whites": [
+          { "x":4, "y":3 },
+          { "x":3, "y":2 },
+          { "x":2, "y":3 },
+          { "x":2, "y":4 }
+        ],
+        "blacks": [
+          { "x":3, "y":3 },
+          { "x":3, "y":4 }
+        ]
+      }
+    }
+  },
+
+  "ladder2": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 3 },
+    "isAtari": true,
+    "situation": {
+      "currentPlayer": "WHITE",
+      "position": {
+        "whites": [
+          { "x":4, "y":3 },
+          { "x":3, "y":2 },
+          { "x":2, "y":3 },
+          { "x":2, "y":4 }
+        ],
+        "blacks": [
+          { "x":3, "y":3 },
+          { "x":3, "y":4 }
+        ]
+      }
+    }
+  },
+
+  "ladder3": {
+    "size": {"x": 19, "y": 19 },
+    "point": { "x": 3, "y": 3 },
+    "isAtari": false,
+    "situation": {
+      "currentPlayer": "WHITE",
+      "position": {
+        "whites": [
+          { "x":4, "y":3 },
+          { "x":3, "y":2 },
+          { "x":2, "y":3 },
+          { "x":2, "y":4 }
+        ],
+        "blacks": [
+          { "x":3, "y":3 },
+          { "x":3, "y":4 },
+          { "x":10, "y":10 }
+        ]
+      }
+    }
+  }
+}

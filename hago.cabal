@@ -1,0 +1,71 @@
+name:                hago
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/githubuser/hago#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2016 Author name here
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+test-suite hago-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test, src
+  main-is:             Main.hs
+  build-depends:       base >= 4.7 && < 5
+                     , containers == 0.5.8.1
+                     , vector == 0.11.0.0
+                     , unordered-containers == 0.2.7.1
+                     , mtl == 2.2.1
+                     , wai == 3.2.1.1
+                     , warp == 3.2.8
+                     , http-types == 0.9.1
+                     , aeson == 0.11.2.1
+                     , bytestring == 0.10.6.0
+                     , postgresql-simple == 0.5.2.1
+  other-modules:       Go.Algorithms.Immortal
+                       Go.Algorithms.NaiveAtari
+                       Go.Algorithms
+                       Go.Core.Fields
+                       Go.Core.Position
+                       Go.Core.Situation
+                       Go.Core.Stones
+                       Go.Core.Tree
+                       Go.Parse
+                       Tests.Go.Fields
+                       Tests.Go.Stones
+                       Tests.Go.Position
+                       Tests.Go.Immortal
+                       Tests.Go.Atari
+
+executable hago
+  hs-source-dirs:      src
+  main-is:             Go/Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , containers == 0.5.8.1
+                     , vector == 0.11.0.0
+                     , unordered-containers == 0.2.7.1
+                     , mtl == 2.2.1
+                     , wai == 3.2.1.1
+                     , warp == 3.2.8
+                     , http-types == 0.9.1
+                     , aeson == 0.11.2.1
+                     , bytestring == 0.10.6.0
+                     , postgresql-simple == 0.5.2.1
+  other-modules:       Go.Algorithms.Immortal
+                       Go.Algorithms.NaiveAtari
+                       Go.Algorithms
+                       Go.Core.Fields
+                       Go.Core.Position
+                       Go.Core.Situation
+                       Go.Core.Stones
+                       Go.Core.Tree
+                       Go.Parse
+                       Go.Server
+                       Go.Main
+
